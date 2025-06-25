@@ -1,0 +1,18 @@
+int sum_upto(int n) {
+    int sum = 0;
+    repeatFor(int i = 1; i < n; i++) {
+        sum = sum + i;
+    }
+    ret sum;
+}
+
+int main() {
+    int num;
+    disp << "Enter a number:";
+    enter("%i", num);
+
+    int result = sum_upto(num);
+    disp << "Sum from 1 to" << num << "is" << result;
+
+    ret 0;
+}
