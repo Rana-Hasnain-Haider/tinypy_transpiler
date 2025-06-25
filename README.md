@@ -43,6 +43,7 @@ Each TinyPy feature is transpiled to Python using custom modules:
 ---
 
 ## 🚀 Getting Started
+#####refer to readme.txt in this repositry
 
 ### 🔧 Requirements
 - Python 3.8+
